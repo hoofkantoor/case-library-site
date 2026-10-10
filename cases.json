@@ -1,0 +1,67 @@
+[
+  {
+    "id": "ab55a982-cf09-45f6-9772-ae4ca9361f29",
+    "title": "Hire to Retire: Phantom Payroll: Untangling Off-Cycle Payments and Cost-Center Chaos at Meridian Craft Foods",
+    "domain": "Finance",
+    "value_stream": "Hire to Retire",
+    "duration_minutes": 60,
+    "context": "Meridian Craft Foods is a fictional mid-sized specialty food manufacturer with 2,400 employees across three plants and a head office. Over the past 18 months the company grew rapidly through seasonal hiring and two small acquisitions. HR onboarding is handled in a legacy applicant-tracking spreadsheet, while payroll runs in the ERP's HCM/payroll module. Position data, cost-center assignments, and termination records are maintained manually by plant HR coordinators and re-keyed by the central payroll team. Finance has begun monthly labor-cost reviews ahead of a planned refinancing, and the CFO has asked for a rapid diagnostic of why payroll-related costs and corrections keep climbing despite stable headcount.",
+    "challenge": "Diagnose why Meridian's payroll costs, off-cycle payment volume, and labor-cost reporting errors are rising despite flat headcount, and recommend a practical, ERP-enabled Hire to Retire improvement that Finance and HR can implement within two quarters.",
+    "symptoms": [
+      "Off-cycle (manual) payroll payments have risen from ~15 to over 110 per month in a year, each requiring manual approval and bank file handling.",
+      "Monthly labor-cost reports show 6-9% of payroll expense posted to a default 'suspense' cost center, forcing Finance to reallocate manually at close.",
+      "Internal audit found 14 terminated employees who received at least one paycheck after their separation date in the last two quarters.",
+      "New-hire first paychecks are late or wrong for roughly 1 in 5 seasonal hires, driving HR hotline volume and some early attrition.",
+      "Month-end close for payroll-related accounts now takes 6 business days, up from 3, due to reconciliation and reclassification work."
+    ],
+    "evidence": [
+      {
+        "source": "Payroll Operations Log (last 12 months)",
+        "finding": "Off-cycle payment reasons: 48% 'new hire not in payroll system at cutoff', 27% 'retro pay for late data entry', 15% 'termination processed after pay run', 10% other. Average 11 calendar days between a plant HR action and its entry in the ERP payroll module."
+      },
+      {
+        "source": "GL Account Analysis, Cost Center 9999 (suspense)",
+        "finding": "Suspense postings concentrate in the two acquired plants, whose employees were loaded with placeholder cost centers during migration; 1,180 of 2,400 employee master records have no validated position-to-cost-center mapping in the ERP org structure."
+      },
+      {
+        "source": "Internal Audit Memo IA-24-07",
+        "finding": "Terminations are initiated on paper forms signed by plant supervisors; median elapsed time from last working day to payroll-effective termination in the ERP is 9 days. Overpayments to 14 separated employees total $41,300, of which $12,800 is deemed unrecoverable."
+      },
+      {
+        "source": "HR Shared-Services Ticket Report",
+        "finding": "Tickets tagged 'pay incorrect/missing' grew 170% year over year; 62% of these tickets originate from employees hired within the prior 60 days, and resolution requires an average of 3 handoffs between plant HR, central HR, and payroll."
+      },
+      {
+        "source": "ERP Access and Workflow Configuration Review",
+        "finding": "The ERP's hire, transfer, and termination workflow capabilities are licensed but not activated; all employee master changes are entered centrally by two payroll clerks from emailed spreadsheets, with no automated validation of cost center, position, or effective dates."
+      }
+    ],
+    "participant_deliverable": "A 5-minute team presentation stating the root-cause diagnosis, a phased ERP-enabled remediation plan for the Hire to Retire process (people, process, and system actions), 3-4 measurable success targets, and the top risks with mitigations.",
+    "agenda": [
+      {
+        "minutes": 5,
+        "activity": "Facilitator introduces the case, objectives, and deliverable expectations"
+      },
+      {
+        "minutes": 12,
+        "activity": "Teams read the brief and evidence pack; clarifying questions to facilitator"
+      },
+      {
+        "minutes": 18,
+        "activity": "Team working session: root-cause diagnosis and ERP-enabled solution design"
+      },
+      {
+        "minutes": 10,
+        "activity": "Teams finalize success measures, risks, and build the 5-minute presentation"
+      },
+      {
+        "minutes": 10,
+        "activity": "Team presentations with facilitator challenge questions"
+      },
+      {
+        "minutes": 5,
+        "activity": "Debrief: facilitator shares model diagnosis and key Hire to Retire lessons"
+      }
+    ]
+  }
+]
